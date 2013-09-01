@@ -9,7 +9,7 @@
            fetch="https://github.com/CyanogenMod/" />
 
   <remote  name="priv"
-           fetch="git@github.com:mrgatesjunior/" />
+           fetch="git@ssh.github.com:mrgatesjunior/" />
 
   <remote  name="gjr"
            fetch="https://github.com/mrgatesjunior/" />
