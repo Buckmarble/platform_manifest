@@ -8,8 +8,8 @@
   <remote  name="cm"
            fetch="https://github.com/CyanogenMod/" />
 
-  <remote  name="priv"
-           fetch="ssh://git@github.com/" />
+ <remote   name="priv"
+           fetch="ssh://git@github.com" />
 
   <remote  name="gjr"
            fetch="https://github.com/mrgatesjunior/" />
