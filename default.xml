@@ -25,11 +25,12 @@
 
 
   <!-- Project Elite SG4 Start -->
-  <project path="abi/cpp" name="android_abi_cpp"/>
-  <project path="bionic" name="android_bionic" />
+  <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
+  <project path="bionic" name="platform/bionic" groups="pdk" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
-  <project path="bootable/diskinstaller" name="android_bootable_diskinstaller" />
-  <project path="bootable/recovery" name="android_bootable_recovery" />
+  <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
+  <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
+  <project path="cts" name="platform/cts" groups="cts" />
   <project path="dalvik" name="android_dalvik" remote="gjr" revision="jb43"/>
   <project path="developers/build" name="platform/developers/build" />
   <project path="developers/demos" name="platform/developers/demos" />
