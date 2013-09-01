@@ -2,14 +2,17 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch="https://android.googlesource.com/" 
-           review="https://android-review.googlesource.com/"/> 
+           fetch="https://android.googlesource.com" 
+           review="android-review.googlesource.com"/> 
 
   <remote  name="cm"
            fetch="https://github.com/CyanogenMod/" />
 
- <remote   name="private"
-           fetch="ssh://git@github.com/mrgatesjunior/" />
+  <remote  name="github"
+           fetch=".." />
+
+  <remote  name="private"
+           fetch="ssh://git@github.com" />
 
   <remote  name="gjr"
            fetch="https://github.com/mrgatesjunior/" />
