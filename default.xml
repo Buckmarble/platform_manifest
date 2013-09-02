@@ -410,7 +410,7 @@
   <!-- System and Tool Packages -->
   <project path="system/bluetooth" name="android_system_bluetooth" remote="cm" revision="cm-10.2" />
   <project path="system/core" name="platform_system_core" remote="gjr" revision="jb43" />
-  <project path="system/extras" name="platform/system/extras" groups="pdk" />
+  <project path="system/extras" name="platform_system_extras" remote="gjr" revision="jb43" />
   <project path="system/media" name="platform/system/media" groups="pdk" />
   <project path="system/netd" name="platform/system/netd" groups="pdk" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
