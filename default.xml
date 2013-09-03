@@ -239,6 +239,7 @@
   <!-- Frameworks Packages -->
   <project path="frameworks/av" name="android_frameworks_av" remote="cm" revision="cm-10.2" />
   <project path="frameworks/base" name="frameworks_base" remote="private" revision="jb43-rom" />
+  <project path="frameworks/native" name="android_frameworks_native" remote="private" revision="jb43" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="private" revision="jb43" />
   <project path="frameworks/opt/vcard" name="android_frameworks_opt_vcard" remote="cm" revision="cm-10.2" />
 
@@ -248,7 +249,6 @@
   <project path="frameworks/ex" name="platform/frameworks/ex" />
   <project path="frameworks/mff" name="platform/frameworks/mff" />
   <project path="frameworks/ml" name="platform/frameworks/ml" />
-  <project path="frameworks/native" name="android_frameworks_native" remote="private" revision="jb43" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" />
   <project path="frameworks/opt/carddav" name="platform/frameworks/opt/carddav" />
   <project path="frameworks/opt/colorpicker" name="platform/frameworks/opt/colorpicker" />
