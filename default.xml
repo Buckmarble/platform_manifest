@@ -29,12 +29,13 @@
   </project>
 
   <!-- Project Elite SG4 Start -->
+  <project path="dalvik" name="android_dalvik" remote="gjr" revision="jb43"/>
+
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="bionic" name="platform/bionic" groups="pdk" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
-  <project path="dalvik" name="android_dalvik" remote="gjr" revision="jb43"/>
   <project path="developers/build" name="platform/developers/build" />
   <project path="developers/demos" name="platform/developers/demos" />
   <project path="developers/docs" name="platform/developers/docs" />
@@ -44,6 +45,7 @@
 
   <!-- Generic Devices -->
   <project path="device/common" name="android_device_common" remote="cm" revision="cm-10.2" />
+
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" />
   <project path="device/generic/common" name="device/generic/common" groups="pdk" />
   <project path="device/generic/goldfish" name="device/generic/goldfish" groups="pdk" />
@@ -66,10 +68,12 @@
   <project path="external/bluetooth/bluedroid" name="android_external_bluetooth_bluedroid" remote="cm" revision="cm-10.2" />
   <project path="external/bash" name="android_external_bash" remote="cm" revision="cm-10.2" />
   <project path="external/busybox" name="android_external_busybox" remote="cm" revision="cm-10.2" />
+  <project path="external/clang" name="external_clang" groups="pdk" remote="gjr" revision="jb43"/>
   <project path="external/koush/ion" name="ion" remote="cm" revision="cm-10.2" />
   <project path="external/koush/AndroidAsync" name="AndroidAsync" remote="cm" revision="cm-10.2" />
   <project path="external/koush/Widgets" name="Widgets" remote="cm" revision="cm-10.2" />
   <project path="external/libncurses" name="android_external_libncurses" remote="cm" revision="cm-10.2" />
+  <project path="external/sepolicy" name="external_sepolicy" groups="pdk" remote="gjr" revision="jb43" />
 
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
   <project path="external/android-clat" name="platform/external/android-clat" />
@@ -90,7 +94,6 @@
   <project path="external/checkpolicy" name="platform/external/checkpolicy" groups="pdk" />
   <project path="external/chromium" name="platform/external/chromium" />
   <project path="external/chromium-trace" name="platform/external/chromium-trace" groups="pdk" />
-  <project path="external/clang" name="external_clang" groups="pdk" remote="gjr" revision="jb43"/>
   <project path="external/compiler-rt" name="platform/external/compiler-rt" groups="pdk" />
   <project path="external/dexmaker" name="platform/external/dexmaker" />
   <project path="external/dhcpcd" name="platform/external/dhcpcd" />
@@ -202,7 +205,6 @@
   <project path="external/replicaisland" name="platform/external/replicaisland" />
   <project path="external/robolectric" name="platform/external/robolectric" />
   <project path="external/safe-iop" name="platform/external/safe-iop" groups="pdk" />
-  <project path="external/sepolicy" name="external_sepolicy" groups="pdk" remote="gjr" revision="jb43" />
   <project path="external/skia" name="platform/external/skia" />
   <project path="external/smack" name="platform/external/smack" />
   <project path="external/smali" name="platform/external/smali" />
@@ -237,6 +239,9 @@
   <!-- Frameworks Packages -->
   <project path="frameworks/av" name="android_frameworks_av" remote="cm" revision="cm-10.2" />
   <project path="frameworks/base" name="frameworks_base" remote="private" revision="jb43-rom" />
+  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="private" revision="jb43" />
+  <project path="frameworks/opt/vcard" name="android_frameworks_opt_vcard" remote="cm" revision="cm-10.2" />
+
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
@@ -255,8 +260,6 @@
   <project path="frameworks/opt/net/voip" name="platform/frameworks/opt/net/voip" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" />
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" />
-  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="private" revision="jb43" />
-  <project path="frameworks/opt/vcard" name="android_frameworks_opt_vcard" remote="cm" revision="cm-10.2" />
   <project path="frameworks/rs" name="platform/frameworks/rs" groups="pdk" />
   <project path="frameworks/support" name="platform/frameworks/support" />
   <project path="frameworks/testing" name="platform/frameworks/testing" />
@@ -413,6 +416,7 @@
   <project path="system/bluetooth" name="android_system_bluetooth" remote="cm" revision="cm-10.2" />
   <project path="system/core" name="platform_system_core" remote="gjr" revision="jb43" />
   <project path="system/extras" name="platform_system_extras" remote="gjr" revision="jb43" />
+
   <project path="system/media" name="platform/system/media" groups="pdk" />
   <project path="system/netd" name="platform/system/netd" groups="pdk" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
