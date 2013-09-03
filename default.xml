@@ -310,8 +310,8 @@
   <!-- Apps -->
   <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="cm" revision="cm-10.2" />
   <project path="packages/apps/Gallery2" name="android_packages_apps_Gallery2" remote="cm" revision="cm-10.2" />
-  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="gjr" revision="jb43-rom" />
   <project path="packages/apps/Mms" name="packages_apps_Mms" remote="gjr" revision="jb43-rom"/>
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="gjr" revision="jb43-rom" />
 
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
   <project path="packages/apps/Browser" name="platform/packages/apps/Browser" />
