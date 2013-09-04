@@ -429,7 +429,7 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
 
   <!-- Vendor Packages -->
-  <project path="vendor/common" name="vendor_common" remote="gjr" revision="jb43" />
+  <project path="vendor/common" name="vendor_common" remote="gjr" revision="jb43-rom" />
   <project path="vendor/samsung" name="vendor_samsung" remote="gjr" revision="jb43" />
   <project path="vendor/qcom/opensource/v8" name="android_vendor_qcom_opensource_v8" remote="cm" revision="cm-10.2" />
   <project path="vendor/tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" remote="cm" revision="cm-10.2" />
