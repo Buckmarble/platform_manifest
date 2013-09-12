@@ -32,7 +32,7 @@
   <project path="dalvik" name="android_dalvik" remote="gjr" revision="jb43-rom"/>
 
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
-  <project path="bionic" name="platform/bionic" groups="pdk" />
+  <project path="bionic" name="platform_bionic" remote="gjr" revision="jb43-rom" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
@@ -300,7 +300,7 @@
   <project path="external/koush/Superuser" name="external_koush_Superuser" remote="gjr" revision="jb43" />
 
   <!-- Things and Stuff -->
-  <project path="libcore" name="android_libcore" remote="gjr" revision="jb43-rom" />
+  <project path="libcore" name="platform_libcore" remote="gjr" revision="jb43-rom" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk-java" />
   <project path="cts" name="platform/cts" remote="aosp" revision="refs/tags/android-4.3_r2.2" groups="cts" />
   <project path="ndk" name="platform/ndk" remote="aosp" revision="refs/tags/android-4.3_r2.2" groups="pdk" />
