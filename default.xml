@@ -29,7 +29,7 @@
   </project>
 
   <!-- Project Elite SG4 Start -->
-  <project path="dalvik" name="android_dalvik" remote="gjr" revision="jb43-rom"/>
+  <project path="dalvik" name="android_dalvik" remote="gjr" revision="jb43"/>
 
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="bionic" name="platform_bionic" remote="gjr" revision="jb43-rom" />
