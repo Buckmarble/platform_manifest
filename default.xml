@@ -62,7 +62,7 @@
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
 
   <!-- Project Elite Devices -->
-  <project path="device/samsung/jf-common" name="device_samsung_jf-common" remote="private" revision="jb43" />
+  <project path="device/samsung/jf-common" name="device_samsung_jf-common" remote="private" revision="jb43-rom" />
   <project path="device/samsung/jfltevzw" name="device_samsung_jfltevzw" remote="private" revision="jb43" />
   <project path="device/samsung/msm8960-common" name="device_samsung_msm8960-common" remote="gjr" revision="jb43" />
   <project path="device/samsung/qcom-common" name="device_samsung_qcom-common" remote="gjr" revision="jb43" />
@@ -437,7 +437,7 @@
 
   <!-- System and Tool Packages -->
   <project path="system/bluetooth" name="android_system_bluetooth" remote="cm" revision="cm-10.2" />
-  <project path="system/core" name="platform_system_core" remote="private" revision="jb43" />
+  <project path="system/core" name="platform_system_core" remote="private" revision="jb43-rom" />
   <project path="system/extras" name="platform_system_extras" remote="gjr" revision="jb43" />
 
   <project path="system/media" name="platform/system/media" groups="pdk" />
