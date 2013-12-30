@@ -479,6 +479,5 @@
   <!-- Vendor Packages -->
   <project path="vendor/common" name="vendor_common" remote="private" revision="kk44" />
   <project path="vendor/samsung" name="vendor_samsung" remote="private" revision="kk44" />
-  <project path="vendor/qcom/opensource/v8" name="android_vendor_qcom_opensource_v8" remote="cm" revision="cm-11.0" />
 
 </manifest>
