@@ -20,11 +20,11 @@
   <remote  name="tm"
            fetch="https://github.com/TheMuppets/" />
            
-  <default revision="refs/tags/android-4.3.1_r1"
+  <default revision="refs/tags/android-4.4.2_r1"
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="android_build" groups="pdk" remote="private" revision="jb43" >
+  <project path="build" name="android_build" groups="pdk" remote="private" revision="kk44" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
@@ -34,7 +34,7 @@
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
-  <project path="dalvik" name="android_dalvik" remote="gjr" revision="jb43"/>
+  <project path="dalvik" name="android_dalvik" remote="gjr" revision="kk44"/>
   <project path="developers/build" name="platform/developers/build" />
   <project path="developers/demos" name="platform/developers/demos" />
   <project path="developers/docs" name="platform/developers/docs" />
@@ -44,9 +44,9 @@
 
   <!-- Generic Devices -->
 
-  <project path="device/generic/goldfish" name="device_goldfish" remote="gjr" revision="jb43-rom" />
+  <project path="device/generic/goldfish" name="device_goldfish" remote="gjr" revision="kk44-rom" />
 
-  <project path="device/common" name="android_device_common" remote="cm" revision="cm-10.2" />
+  <project path="device/common" name="android_device_common" remote="cm" revision="cm-11.0" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" />
   <project path="device/generic/common" name="device/generic/common" groups="pdk" />
   <project path="device/generic/goldfish" name="device/generic/goldfish" groups="pdk" />
@@ -59,23 +59,23 @@
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
 
   <!-- Project Elite Devices -->
-  <project path="device/samsung/jf-common" name="device_samsung_jf-common" remote="private" revision="jb43" />
-  <project path="device/samsung/jfltevzw" name="device_samsung_jfltevzw" remote="private" revision="jb43" />
-  <project path="device/samsung/msm8960-common" name="device_samsung_msm8960-common" remote="gjr" revision="jb43" />
-  <project path="device/samsung/qcom-common" name="device_samsung_qcom-common" remote="gjr" revision="jb43" />
+  <project path="device/samsung/jf-common" name="device_samsung_jf-common" remote="private" revision="kk44" />
+  <project path="device/samsung/jfltevzw" name="device_samsung_jfltevzw" remote="private" revision="kk44" />
+  <project path="device/samsung/msm8960-common" name="device_samsung_msm8960-common" remote="gjr" revision="kk44" />
+  <project path="device/samsung/qcom-common" name="device_samsung_qcom-common" remote="gjr" revision="kk44" />
 
   <!-- External Packages -->
 
-  <project path="external/bluetooth/bluedroid" name="android_external_bluetooth_bluedroid" remote="cm" revision="cm-10.2" />
-  <project path="external/bash" name="android_external_bash" remote="cm" revision="cm-10.2" />
-  <project path="external/busybox" name="android_external_busybox" remote="cm" revision="cm-10.2" />
-  <project path="external/clang" name="external_clang" groups="pdk" remote="gjr" revision="jb43"/>
-  <project path="external/koush/ion" name="ion" remote="cm" revision="cm-10.2" />
-  <project path="external/koush/AndroidAsync" name="AndroidAsync" remote="cm" revision="cm-10.2" />
-  <project path="external/koush/Widgets" name="Widgets" remote="cm" revision="cm-10.2" />
-  <project path="external/libncurses" name="android_external_libncurses" remote="cm" revision="cm-10.2" />
-  <project path="external/libnfc-nci" name="external_libnfc-nci" groups="pdk" remote="gjr" revision="jb43" />
-  <project path="external/sepolicy" name="external_sepolicy" groups="pdk" remote="gjr" revision="jb43" />
+  <project path="external/bluetooth/bluedroid" name="android_external_bluetooth_bluedroid" remote="cm" revision="cm-11.0" />
+  <project path="external/bash" name="android_external_bash" remote="cm" revision="cm-11.0" />
+  <project path="external/busybox" name="android_external_busybox" remote="cm" revision="cm-11.0" />
+  <project path="external/clang" name="external_clang" groups="pdk" remote="gjr" revision="kk44"/>
+  <project path="external/koush/ion" name="ion" remote="cm" revision="cm-11.0" />
+  <project path="external/koush/AndroidAsync" name="AndroidAsync" remote="cm" revision="cm-11.0" />
+  <project path="external/koush/Widgets" name="Widgets" remote="cm" revision="cm-11.0" />
+  <project path="external/libncurses" name="android_external_libncurses" remote="cm" revision="cm-11.0" />
+  <project path="external/libnfc-nci" name="external_libnfc-nci" groups="pdk" remote="gjr" revision="kk44" />
+  <project path="external/sepolicy" name="external_sepolicy" groups="pdk" remote="gjr" revision="kk44" />
 
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
   <project path="external/android-clat" name="platform/external/android-clat" />
@@ -238,15 +238,15 @@
   <project path="external/zxing" name="platform/external/zxing" />
 
   <!-- Frameworks Packages -->
-  <project path="frameworks/av" name="android_frameworks_av" remote="cm" revision="cm-10.2" />
-  <project path="frameworks/base" name="frameworks_base" remote="private" revision="jb43" />
+  <project path="frameworks/av" name="android_frameworks_av" remote="cm" revision="cm-11.0" />
+  <project path="frameworks/base" name="frameworks_base" remote="private" revision="kk44" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
   <project path="frameworks/ex" name="platform/frameworks/ex" />
   <project path="frameworks/mff" name="platform/frameworks/mff" />
   <project path="frameworks/ml" name="platform/frameworks/ml" />
-  <project path="frameworks/native" name="android_frameworks_native" remote="private" revision="jb43" />
+  <project path="frameworks/native" name="android_frameworks_native" remote="private" revision="kk44" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" />
   <project path="frameworks/opt/carddav" name="platform/frameworks/opt/carddav" />
   <project path="frameworks/opt/colorpicker" name="platform/frameworks/opt/colorpicker" />
@@ -258,8 +258,8 @@
   <project path="frameworks/opt/net/voip" name="platform/frameworks/opt/net/voip" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" />
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" />
-  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="private" revision="jb43" />
-  <project path="frameworks/opt/vcard" name="android_frameworks_opt_vcard" remote="cm" revision="cm-10.2" />
+  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="private" revision="kk44" />
+  <project path="frameworks/opt/vcard" name="android_frameworks_opt_vcard" remote="cm" revision="cm-11.0" />
   <project path="frameworks/rs" name="platform/frameworks/rs" groups="pdk" />
   <project path="frameworks/support" name="platform/frameworks/support" />
   <project path="frameworks/testing" name="platform/frameworks/testing" />
@@ -268,36 +268,36 @@
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" />
 
   <!-- Hardware Packages -->
-  <project path="hardware/akm" name="android_hardware_akm" groups="pdk" remote="cm" revision="cm-10.2" />
-  <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" groups="pdk" remote="cm" revision="cm-10.2" />
-  <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" groups="broadcom_wlan" remote="cm" revision="cm-10.2" />
-  <project path="hardware/cm" name="android_hardware_cm" remote="cm" revision="cm-10.2" />
-  <project path="hardware/invensense" name="android_hardware_invensense" groups="invensense" remote="cm" revision="cm-10.2" />
-  <project path="hardware/libhardware" name="android_hardware_libhardware" groups="pdk" remote="cm" revision="cm-10.2" />
-  <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" groups="pdk" remote="cm" revision="cm-10.2" />
-  <project path="hardware/msm7k" name="android_hardware_msm7k" remote="cm" revision="cm-10.2" />
-  <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" groups="qcom" remote="cm" revision="cm-10.2" />
-  <project path="hardware/qcom/audio-caf" name="android_hardware_qcom_audio-caf" groups="caf" remote="cm" revision="cm-10.2" />
-  <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" groups="qcom" remote="cm" revision="cm-10.2" />
-  <project path="hardware/qcom/display" name="android_hardware_qcom_display" groups="qcom" remote="cm" revision="cm-10.2" />
-  <project path="hardware/qcom/display-caf" name="android_hardware_qcom_display-caf" groups="caf" remote="cm" revision="cm-10.2" />
-  <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" groups="qcom" remote="cm" revision="cm-10.2" />
-  <project path="hardware/qcom/media" name="android_hardware_qcom_media" groups="qcom" remote="cm" revision="cm-10.2" />
-  <project path="hardware/qcom/media-caf" name="android_hardware_qcom_media-caf" groups="caf" remote="cm" revision="cm-10.2" />
-  <project path="hardware/qcom/msm8960" name="android_hardware_qcom_msm8960" groups="qcom_msm8960" remote="cm" revision="cm-10.2" />
-  <project path="hardware/qcom/power" name="android_hardware_qcom_power" remote="cm" revision="cm-10.2" />
-  <project path="hardware/qcom/sensors" name="android_hardware_qcom_sensors" remote="cm" revision="cm-10.2" />
-  <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="cm" revision="cm-10.2" />
+  <project path="hardware/akm" name="android_hardware_akm" groups="pdk" remote="cm" revision="cm-11.0" />
+  <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" groups="pdk" remote="cm" revision="cm-11.0" />
+  <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" groups="broadcom_wlan" remote="cm" revision="cm-11.0" />
+  <project path="hardware/cm" name="android_hardware_cm" remote="cm" revision="cm-11.0" />
+  <project path="hardware/invensense" name="android_hardware_invensense" groups="invensense" remote="cm" revision="cm-11.0" />
+  <project path="hardware/libhardware" name="android_hardware_libhardware" groups="pdk" remote="cm" revision="cm-11.0" />
+  <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" groups="pdk" remote="cm" revision="cm-11.0" />
+  <project path="hardware/msm7k" name="android_hardware_msm7k" remote="cm" revision="cm-11.0" />
+  <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" groups="qcom" remote="cm" revision="cm-11.0" />
+  <project path="hardware/qcom/audio-caf" name="android_hardware_qcom_audio-caf" groups="caf" remote="cm" revision="cm-11.0" />
+  <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" groups="qcom" remote="cm" revision="cm-11.0" />
+  <project path="hardware/qcom/display" name="android_hardware_qcom_display" groups="qcom" remote="cm" revision="cm-11.0" />
+  <project path="hardware/qcom/display-caf" name="android_hardware_qcom_display-caf" groups="caf" remote="cm" revision="cm-11.0" />
+  <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" groups="qcom" remote="cm" revision="cm-11.0" />
+  <project path="hardware/qcom/media" name="android_hardware_qcom_media" groups="qcom" remote="cm" revision="cm-11.0" />
+  <project path="hardware/qcom/media-caf" name="android_hardware_qcom_media-caf" groups="caf" remote="cm" revision="cm-11.0" />
+  <project path="hardware/qcom/msm8960" name="android_hardware_qcom_msm8960" groups="qcom_msm8960" remote="cm" revision="cm-11.0" />
+  <project path="hardware/qcom/power" name="android_hardware_qcom_power" remote="cm" revision="cm-11.0" />
+  <project path="hardware/qcom/sensors" name="android_hardware_qcom_sensors" remote="cm" revision="cm-11.0" />
+  <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="cm" revision="cm-11.0" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" groups="omap4" />
   <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" />
   <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" />
 
   <!-- Kernel Sources -->
-  <project path="kernel/samsung/jf" name="elite_kernel_jf" remote="pe" revision="jb43-OC" />
+  <project path="kernel/samsung/jf" name="elite_kernel_jf" remote="pe" revision="kk44-OC" />
 
   <!-- Koush Superuser -->
-  <project path="external/koush/Superuser" name="external_koush_Superuser" remote="gjr" revision="jb43" />
+  <project path="external/koush/Superuser" name="external_koush_Superuser" remote="gjr" revision="kk44" />
 
   <!-- Things and Stuff -->
   <project path="libcore" name="platform/libcore" />
@@ -308,11 +308,11 @@
   <project path="sdk" name="platform/sdk" remote="aosp" revision="refs/tags/android-4.3_r2.2" groups="pdk"/>
 
   <!-- Apps -->
-  <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="cm" revision="cm-10.2" />
-  <project path="packages/apps/Camera" name="android_packages_apps_Camera" remote="cm" revision="cm-10.2" />
-  <project path="packages/apps/Gallery2" name="android_packages_apps_Gallery2" remote="cm" revision="cm-10.2" />
-  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="gjr" revision="jb43" />
-  <project path="packages/wallpapers/SunBeam" name="packages_wallpapers_SunBeam" remote="gjr" revision="jb43" />
+  <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="cm" revision="cm-11.0" />
+  <project path="packages/apps/Camera" name="android_packages_apps_Camera" remote="cm" revision="cm-11.0" />
+  <project path="packages/apps/Gallery2" name="android_packages_apps_Gallery2" remote="cm" revision="cm-11.0" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="gjr" revision="kk44" />
+  <project path="packages/wallpapers/SunBeam" name="packages_wallpapers_SunBeam" remote="gjr" revision="kk44" />
 
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
   <project path="packages/apps/Browser" name="platform/packages/apps/Browser" />
@@ -376,7 +376,7 @@
   <project path="packages/wallpapers/PhaseBeam" name="platform/packages/wallpapers/PhaseBeam" />
  
   <!-- Prebuilts -->
-  <project path="prebuilts/gcc/linux-x86/toolchain/linaro" name="Linaro_47x_toolchain" remote="gjr" revision="jb43" />
+  <project path="prebuilts/gcc/linux-x86/toolchain/linaro" name="Linaro_47x_toolchain" remote="gjr" revision="kk44" />
 
   <project path="prebuilts/clang/darwin-x86/3.1" name="platform/prebuilts/clang/darwin-x86/3.1" groups="pdk,darwin" />
   <project path="prebuilts/clang/darwin-x86/3.2" name="platform/prebuilts/clang/darwin-x86/3.2" groups="pdk,darwin" />
@@ -414,9 +414,9 @@
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
 
   <!-- System and Tool Packages -->
-  <project path="system/bluetooth" name="android_system_bluetooth" remote="cm" revision="cm-10.2" />
-  <project path="system/core" name="platform_system_core" remote="private" revision="jb43" />
-  <project path="system/extras" name="platform_system_extras" remote="gjr" revision="jb43" />
+  <project path="system/bluetooth" name="android_system_bluetooth" remote="cm" revision="cm-11.0" />
+  <project path="system/core" name="platform_system_core" remote="private" revision="kk44" />
+  <project path="system/extras" name="platform_system_extras" remote="gjr" revision="kk44" />
   <project path="system/media" name="platform/system/media" groups="pdk" />
   <project path="system/netd" name="platform/system/netd" groups="pdk" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
@@ -433,8 +433,8 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
 
   <!-- Vendor Packages -->
-  <project path="vendor/common" name="vendor_common" remote="private" revision="jb43" />
-  <project path="vendor/samsung" name="vendor_samsung" remote="private" revision="jb43" />
-  <project path="vendor/qcom/opensource/v8" name="android_vendor_qcom_opensource_v8" remote="cm" revision="cm-10.2" />
+  <project path="vendor/common" name="vendor_common" remote="private" revision="kk44" />
+  <project path="vendor/samsung" name="vendor_samsung" remote="private" revision="kk44" />
+  <project path="vendor/qcom/opensource/v8" name="android_vendor_qcom_opensource_v8" remote="cm" revision="cm-11.0" />
 
 </manifest>
