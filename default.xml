@@ -14,8 +14,8 @@
   <remote  name="gjr"
            fetch="https://github.com/mrgatesjunior/" />
 
-  <remote  name="pe"
-           fetch="https://github.com/Project-Elite/" />
+  <remote  name="tg"
+           fetch="https://github.com/Team-Gummy/" />
 
   <remote  name="tm"
            fetch="https://github.com/TheMuppets/" />
@@ -327,7 +327,7 @@
   <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" />
 
   <!-- Kernel Sources -->
-  <project path="kernel/samsung/jf" name="elite_kernel_jf" remote="pe" revision="kk44-OC" />
+  <project path="kernel/samsung/jf" name="elite_kernel_jf" remote="tg" revision="kk4.4" />
 
   <!-- Koush Superuser -->
   <project path="external/koush/Superuser" name="external_koush_Superuser" remote="gjr" revision="kk44" />
