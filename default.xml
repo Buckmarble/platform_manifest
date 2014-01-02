@@ -46,8 +46,6 @@
 
   <!-- Generic Devices -->
 
-  <project path="device/generic/goldfish" name="device_goldfish" remote="gjr" revision="kk44" />
-
   <project path="device/common" name="android_device_common" remote="cm" revision="cm-11.0" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" />
   <project path="device/generic/common" name="device/generic/common" groups="pdk" />
