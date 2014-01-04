@@ -466,6 +466,7 @@
   <!-- System and Tool Packages -->
   <project path="system/core" name="platform_system_core" remote="private" revision="kk44" />
   <project path="system/extras" name="platform_system_extras" remote="gjr" revision="kk44" />
+  <project path="system/qcom" name="platform_system_qcom" remote="gjr" revision="kk44" />
 
   <project path="system/media" name="platform/system/media" groups="pdk" />
   <project path="system/netd" name="platform/system/netd" groups="pdk" />
