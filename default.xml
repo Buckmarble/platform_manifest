@@ -70,11 +70,15 @@
   <project path="external/bash" name="android_external_bash" remote="cm" revision="cm-11.0" />
   <project path="external/busybox" name="android_external_busybox" remote="cm" revision="cm-11.0" />
   <project path="external/clang" name="external_clang" groups="pdk" remote="gjr" revision="kk44"/>
+  <project path="external/exfat" name="android_external_exfat" remote="cm" revision="cm-11.0" />
+  <project path="external/f2fs-tools" name="android_external_f2fs-tools" remote="cm" revision="cm-11.0" />
+  <project path="external/fuse" name="android_external_fuse" remote="cm" revision="cm-11.0" />
   <project path="external/koush/ion" name="ion" remote="cm" revision="cm-11.0" />
   <project path="external/koush/AndroidAsync" name="AndroidAsync" remote="cm" revision="cm-11.0" />
   <project path="external/koush/Widgets" name="Widgets" remote="cm" revision="cm-11.0" />
   <project path="external/libncurses" name="android_external_libncurses" remote="cm" revision="cm-11.0" />
   <project path="external/libnfc-nci" name="external_libnfc-nci" groups="pdk" remote="gjr" revision="kk44" />
+  <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="cm" revision="cm-11.0" />
   <project path="external/sepolicy" name="external_sepolicy" groups="pdk" remote="gjr" revision="kk44" />
 
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
@@ -321,6 +325,7 @@
   <project path="hardware/qcom/power" name="android_hardware_qcom_power" remote="cm" revision="cm-11.0" />
   <project path="hardware/qcom/sensors" name="android_hardware_qcom_sensors" remote="cm" revision="cm-11.0" />
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="cm" revision="cm-11.0" />
+  <project path="hardware/ril" name="android_hardware_ril" remote="cm" revision="cm-11.0" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" groups="omap4" />
   <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" />
