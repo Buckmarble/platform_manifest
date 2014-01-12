@@ -474,11 +474,11 @@
   <project path="system/core" name="platform_system_core" remote="private" revision="kk44" />
   <project path="system/extras" name="platform_system_extras" remote="gjr" revision="kk44" />
   <project path="system/qcom" name="platform_system_qcom" remote="gjr" revision="kk44" />
+  <project path="system/vold" name="platform_system_vold" remote="gjr" revision="kk44" />
 
   <project path="system/media" name="platform/system/media" groups="pdk" />
   <project path="system/netd" name="platform/system/netd" groups="pdk" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
-  <project path="system/vold" name="platform/system/vold" groups="pdk" />
   <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" />
   <project path="tools/adt/idea" name="platform/tools/adt/idea" groups="notdefault,tools" />
   <project path="tools/base" name="platform/tools/base" groups="notdefault,tools" />
