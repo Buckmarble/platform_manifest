@@ -18,7 +18,7 @@
            fetch="https://github.com/TEAM-Gummy/" />
 
   <remote  name="pe"
-           fetch="git@github.com/Buckmarble/" />
+           fetch="ssh://git@github.com/Buckmarble/" />
 
   <remote  name="tm"
            fetch="https://github.com/TheMuppets/" />
