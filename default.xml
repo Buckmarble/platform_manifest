@@ -84,7 +84,6 @@
   <project path="external/libncurses" name="android_external_libncurses" remote="cm" revision="cm-11.0" />
   <project path="external/libnfc-nci" name="external_libnfc-nci" groups="pdk" remote="gjr" revision="kk44" />
   <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="cm" revision="cm-11.0" />
-  <project path="external/qemu" name="external_qemu" remote="gjr" revision="kk44" />
   <project path="external/sepolicy" name="external_sepolicy" groups="pdk" remote="gjr" revision="kk44" />
 
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
@@ -235,6 +234,7 @@
   <project path="external/ppp" name="platform/external/ppp" />
   <project path="external/proguard" name="platform/external/proguard" groups="pdk-java" />
   <project path="external/protobuf" name="platform/external/protobuf" groups="pdk" />
+  <project path="external/qemu" name="platform/external/qemu" />
   <project path="external/qemu-pc-bios" name="platform/external/qemu-pc-bios" />
   <project path="external/regex-re2" name="platform/external/regex-re2" />
   <project path="external/replicaisland" name="platform/external/replicaisland" />
@@ -503,3 +503,4 @@
   <project path="vendor/htc" name="vendor_htc" remote="gjr" revision="kk44" />
 
 </manifest>
+
