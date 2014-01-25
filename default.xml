@@ -30,13 +30,14 @@
   </project>
 
   <!-- Project Elite SG4 Start -->
+  <project path="dalvik" name="android_dalvik" remote="gjr" revision="kk44"/>
+
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="platform/art" />
   <project path="bionic" name="platform/bionic" groups="pdk" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
-  <project path="dalvik" name="android_dalvik" remote="gjr" revision="kk44"/>
   <project path="developers/build" name="platform/developers/build" />
   <project path="developers/demos" name="platform/developers/demos" />
   <project path="developers/docs" name="platform/developers/docs" />
@@ -45,8 +46,8 @@
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
 
   <!-- Generic Devices -->
-
   <project path="device/common" name="android_device_common" remote="cm" revision="cm-11.0" />
+
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" />
   <project path="device/generic/common" name="device/generic/common" groups="pdk" />
   <project path="device/generic/goldfish" name="device/generic/goldfish" groups="pdk" />
@@ -69,7 +70,6 @@
   <project path="device/htc/msm8960-common" name="device_htc_msm8960-common" remote="gjr" revision="kk44" />
 
   <!-- External Packages -->
-
   <project path="external/bluetooth/bluedroid" name="external_bluetooth_bluedroid" remote="gjr" revision="kk44" />
   <project path="external/bash" name="android_external_bash" remote="cm" revision="cm-11.0" />
   <project path="external/busybox" name="android_external_busybox" remote="cm" revision="cm-11.0" />
@@ -86,6 +86,7 @@
   <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="cm" revision="cm-11.0" />
   <project path="external/qemu" name="external_qemu" remote="gjr" revision="kk44" />
   <project path="external/sepolicy" name="external_sepolicy" groups="pdk" remote="gjr" revision="kk44" />
+  <project path="external/skia" name="external_skia" remote="gjr" revision="kk44" />
 
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
   <project path="external/android-clat" name="platform/external/android-clat" />
@@ -243,7 +244,6 @@
   <project path="external/scrypt" name="platform/external/scrypt" groups="pdk" />
   <project path="external/sfntly" name="platform/external/sfntly" />
   <project path="external/sil-fonts" name="platform/external/sil-fonts" />
-  <project path="external/skia" name="platform/external/skia" />
   <project path="external/smack" name="platform/external/smack" />
   <project path="external/smali" name="platform/external/smali" />
   <project path="external/sonivox" name="platform/external/sonivox" groups="pdk" />
