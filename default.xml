@@ -338,7 +338,7 @@
   <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" />
 
   <!-- Kernel Sources -->
-  <project path="kernel/samsung/jf" name="kernel_samsung_jf" remote="private" revision="kk44" />
+  <project path="kernel/samsung/jf" name="kernel_samsung_jf" remote="private" revision="elite-kk44" />
   <project path="kernel/htc/m7" name="Elite_Lunar_kernel" remote="pe" revision="lunar-AOSP" />
 
   <!-- Koush Superuser -->
