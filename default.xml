@@ -20,7 +20,7 @@
   <remote  name="tm"
            fetch="https://github.com/TheMuppets/" />
            
-  <default revision="refs/tags/android-4.4.2_r1"
+  <default revision="refs/tags/android-4.4.2_r2"
            remote="aosp"
            sync-j="4" />
 
@@ -347,10 +347,10 @@
   <!-- Things and Stuff -->
   <project path="libcore" name="platform/libcore" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk-java" />
-  <project path="cts" name="platform/cts" remote="aosp" revision="refs/tags/android-4.4.2_r1" groups="cts" />
-  <project path="ndk" name="platform/ndk" remote="aosp" revision="refs/tags/android-4.4.2_r1" groups="pdk" />
-  <project path="pdk" name="platform/pdk" remote="aosp" revision="refs/tags/android-4.4.2_r1" groups="pdk" />
-  <project path="sdk" name="platform/sdk" remote="aosp" revision="refs/tags/android-4.4.2_r1" groups="pdk"/>
+  <project path="cts" name="platform/cts" remote="aosp" revision="refs/tags/android-4.4.2_r2" groups="cts" />
+  <project path="ndk" name="platform/ndk" remote="aosp" revision="refs/tags/android-4.4.2_r2" groups="pdk" />
+  <project path="pdk" name="platform/pdk" remote="aosp" revision="refs/tags/android-4.4.2_r2" groups="pdk" />
+  <project path="sdk" name="platform/sdk" remote="aosp" revision="refs/tags/android-4.4.2_r2" groups="pdk"/>
 
   <!-- Apps -->
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="gjr" revision="kk44" />
