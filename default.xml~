@@ -30,10 +30,10 @@
   </project>
 
   <!-- Project Elite SG4 Start -->
+  <project path="art" name="android_art" groups="pdk" remote="gjr" revision="kk44" />
   <project path="dalvik" name="android_dalvik" remote="gjr" revision="kk44"/>
 
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
-  <project path="art" name="platform/art" />
   <project path="bionic" name="platform/bionic" groups="pdk" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
@@ -345,7 +345,8 @@
   <project path="external/koush/Superuser" name="external_koush_Superuser" remote="gjr" revision="kk44" />
 
   <!-- Things and Stuff -->
-  <project path="libcore" name="platform/libcore" />
+  <project path="libcore" name="android_libcore" remote="gjr" revision="kk44" />
+
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk-java" />
   <project path="cts" name="platform/cts" remote="aosp" revision="refs/tags/android-4.4.2_r2" groups="cts" />
   <project path="ndk" name="platform/ndk" remote="aosp" revision="refs/tags/android-4.4.2_r2" groups="pdk" />
