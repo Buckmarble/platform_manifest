@@ -70,7 +70,7 @@
   <project path="device/htc/msm8960-common" name="device_htc_msm8960-common" remote="gjr" revision="kk44" />
 
   <!-- External Packages -->
-  <project path="external/bluetooth/bluedroid" name=" android_external_bluetooth_bluedroid" remote="cm" revision="cm-11.0" />
+  <project path="external/bluetooth/bluedroid" name="android_external_bluetooth_bluedroid" remote="cm" revision="cm-11.0" />
   <project path="external/bash" name="android_external_bash" remote="cm" revision="cm-11.0" />
   <project path="external/busybox" name="android_external_busybox" remote="cm" revision="cm-11.0" />
   <project path="external/clang" name="external_clang" groups="pdk" remote="gjr" revision="kk44"/>
