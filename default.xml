@@ -9,7 +9,7 @@
            fetch="https://github.com/CyanogenMod/" />
 
  <remote   name="private"
-           fetch="ssh://git@github.com/mrgatesjunior/" />
+           fetch="ssh://git@github.com/buckmarble/" />
 
   <remote  name="gjr"
            fetch="https://github.com/mrgatesjunior/" />
@@ -60,8 +60,6 @@
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
 
   <!-- Project Elite Devices -->
-  <project path="device/samsung/jf-common" name="device_samsung_jf-common" remote="private" revision="kk44" />
-  <project path="device/samsung/jfltevzw" name="device_samsung_jfltevzw" remote="private" revision="kk44" />
   <project path="device/samsung/msm8960-common" name="device_samsung_msm8960-common" remote="gjr" revision="kk44" />
   <project path="device/samsung/qcom-common" name="device_samsung_qcom-common" remote="gjr" revision="kk44" />
 
@@ -338,7 +336,6 @@
   <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" />
 
   <!-- Kernel Sources -->
-  <project path="kernel/samsung/jf" name="kernel_samsung_jf" remote="private" revision="elite-kk44" />
   <project path="kernel/htc/m7" name="Elite_Lunar_kernel" remote="pe" revision="AOSP2" />
 
   <!-- Koush Superuser -->
