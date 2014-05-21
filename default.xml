@@ -15,7 +15,7 @@
            fetch="https://github.com/mrgatesjunior/" />
 
   <remote  name="pe"
-           fetch="ssh://git@github.com/Buckmarble/" />
+           fetch="https://github.com/Buckmarble/" />
 
   <remote  name="tm"
            fetch="https://github.com/TheMuppets/" />
@@ -274,8 +274,8 @@
 
   <!-- Frameworks Packages -->
   <project path="frameworks/av" name="android_frameworks_av" remote="cm" revision="cm-11.0" />
-  <project path="frameworks/base" name="frameworks_base" remote="private" revision="kk44" />
-  <project path="frameworks/native" name="android_frameworks_native" remote="private" revision="kk44" />
+  <project path="frameworks/base" name="frameworks_base" remote="pe" revision="kk44" />
+  <project path="frameworks/native" name="android_frameworks_native" remote="pe" revision="kk44" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="private" revision="kk44" />
   <project path="frameworks/opt/vcard" name="android_frameworks_opt_vcard" remote="cm" revision="cm-11.0" />
 
@@ -476,7 +476,7 @@
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
 
   <!-- System and Tool Packages -->
-  <project path="system/core" name="platform_system_core" remote="private" revision="kk44" />
+  <project path="system/core" name="platform_system_core" remote="pe" revision="kk44" />
   <project path="system/extras" name="platform_system_extras" remote="gjr" revision="kk44" />
   <project path="system/qcom" name="platform_system_qcom" remote="gjr" revision="kk44" />
   <project path="system/vold" name="platform_system_vold" remote="gjr" revision="kk44" />
