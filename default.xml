@@ -65,7 +65,7 @@
 
   <project path="device/htc/m7-common" name="device_htc_m7-common" remote="gjr" revision="kk44" />
   <project path="device/htc/m7vzw" name="device_htc_m7vzw" remote="gjr" revision="kk44" />
-  <project path="device/htc/msm8960-common" name="device_htc_msm8960-common" remote="gjr" revision="kk44" />
+  <project path="device/htc/msm8960-common" name="device_htc_msm8960-common" remote="pe" revision="kk44" />
 
   <!-- External Packages -->
   <project path="external/bluetooth/bluedroid" name="android_external_bluetooth_bluedroid" remote="cm" revision="cm-11.0" />
