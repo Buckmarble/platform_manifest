@@ -338,7 +338,7 @@
   <project path="external/koush/Superuser" name="external_koush_Superuser" remote="pe" revision="kk44" />
 
   <!-- Things and Stuff -->
-  <project path="libcore" name="android_libcore" remote="gjr" revision="kk44" />
+  <project path="libcore" name="android_libcore" remote="pe" revision="kk44" />
 
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk-java" />
   <project path="cts" name="platform/cts" remote="aosp" revision="refs/tags/android-4.4.2_r2" groups="cts" />
@@ -493,7 +493,7 @@
 
   <!-- Vendor Packages -->
   <project path="vendor/common" name="vendor_common" remote="private" revision="kk44" />
-  <project path="vendor/htc" name="vendor_htc" remote="gjr" revision="kk44" />
+  <project path="vendor/htc" name="vendor_htc" remote="pe" revision="kk44" />
 
 </manifest>
 
