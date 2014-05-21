@@ -25,13 +25,13 @@
            sync-j="4" />
 
 
-  <project path="build" name="android_build" groups="pdk" remote="private" revision="kk44" >
+  <project path="build" name="android_build" groups="pdk" remote="pe" revision="kk44" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
   <!-- Project Elite SG4 Start -->
-  <project path="art" name="android_art" remote="gjr" revision="kk44" />
-  <project path="dalvik" name="android_dalvik" remote="gjr" revision="kk44"/>
+  <project path="art" name="android_art" remote="pe" revision="kk44" />
+  <project path="dalvik" name="android_dalvik" remote="pe" revision="kk44"/>
 
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="bionic" name="platform/bionic" groups="pdk" />
@@ -60,19 +60,16 @@
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
 
   <!-- Project Elite Devices -->
-  <project path="device/samsung/msm8960-common" name="device_samsung_msm8960-common" remote="gjr" revision="kk44" />
-  <project path="device/samsung/qcom-common" name="device_samsung_qcom-common" remote="gjr" revision="kk44" />
-
-  <project path="device/htc/m7-common" name="device_htc_m7-common" remote="gjr" revision="kk44" />
-  <project path="device/htc/m7vzw" name="device_htc_m7vzw" remote="gjr" revision="kk44" />
+  <project path="device/htc/m7-common" name="device_htc_m7-common" remote="pe" revision="kk44" />
+  <project path="device/htc/m7vzw" name="device_htc_m7vzw" remote="pe" revision="kk44" />
   <project path="device/htc/msm8960-common" name="device_htc_msm8960-common" remote="pe" revision="kk44" />
 
   <!-- External Packages -->
   <project path="external/bluetooth/bluedroid" name="android_external_bluetooth_bluedroid" remote="cm" revision="cm-11.0" />
   <project path="external/bash" name="android_external_bash" remote="cm" revision="cm-11.0" />
   <project path="external/busybox" name="android_external_busybox" remote="cm" revision="cm-11.0" />
-  <project path="external/clang" name="external_clang" groups="pdk" remote="gjr" revision="kk44"/>
-  <project path="external/e2fsprogs" name="external_e2fsprogs" remote="gjr" revision="kk44" />
+  <project path="external/clang" name="external_clang" groups="pdk" remote="pe" revision="kk44"/>
+  <project path="external/e2fsprogs" name="external_e2fsprogs" remote="pe" revision="kk44" />
   <project path="external/exfat" name="android_external_exfat" remote="cm" revision="cm-11.0" />
   <project path="external/f2fs-tools" name="android_external_f2fs-tools" remote="cm" revision="cm-11.0" />
   <project path="external/fuse" name="android_external_fuse" remote="cm" revision="cm-11.0" />
@@ -80,11 +77,11 @@
   <project path="external/koush/AndroidAsync" name="AndroidAsync" remote="cm" revision="cm-11.0" />
   <project path="external/koush/Widgets" name="Widgets" remote="cm" revision="cm-11.0" />
   <project path="external/libncurses" name="android_external_libncurses" remote="cm" revision="cm-11.0" />
-  <project path="external/libnfc-nci" name="external_libnfc-nci" groups="pdk" remote="gjr" revision="kk44" />
+  <project path="external/libnfc-nci" name="external_libnfc-nci" groups="pdk" remote="pe" revision="kk44" />
   <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="cm" revision="cm-11.0" />
-  <project path="external/qemu" name="external_qemu" remote="gjr" revision="kk44" />
-  <project path="external/sepolicy" name="external_sepolicy" groups="pdk" remote="gjr" revision="kk44" />
-  <project path="external/skia" name="external_skia" remote="gjr" revision="kk44" />
+  <project path="external/qemu" name="external_qemu" remote="pe" revision="kk44" />
+  <project path="external/sepolicy" name="external_sepolicy" groups="pdk" remote="pe" revision="kk44" />
+  <project path="external/skia" name="external_skia" remote="pe" revision="kk44" />
 
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
   <project path="external/android-clat" name="platform/external/android-clat" />
@@ -328,7 +325,6 @@
   <project path="hardware/qcom/sensors" name="android_hardware_qcom_sensors" remote="cm" revision="cm-11.0" />
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="cm" revision="cm-11.0" />
   <project path="hardware/ril" name="android_hardware_ril" remote="cm" revision="cm-11.0" />
-  <project path="hardware/samsung" name="hardware_samsung" remote="gjr" revision="kk44" />
 
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" groups="omap4" />
@@ -339,7 +335,7 @@
   <project path="kernel/htc/m7" name="Elite_Lunar_kernel" remote="pe" revision="AOSP2" />
 
   <!-- Koush Superuser -->
-  <project path="external/koush/Superuser" name="external_koush_Superuser" remote="gjr" revision="kk44" />
+  <project path="external/koush/Superuser" name="external_koush_Superuser" remote="pe" revision="kk44" />
 
   <!-- Things and Stuff -->
   <project path="libcore" name="android_libcore" remote="gjr" revision="kk44" />
@@ -355,12 +351,12 @@
   <project path="packages/apps/BluetoothExt" name="android_packages_apps_BluetoothExt" remote="cm" revision="cm-11.0" />
   <project path="packages/apps/Camera2" name="android_packages_apps_Camera2" remote="cm" revision="cm-11.0" />
   <project path="packages/apps/Gallery2" name="android_packages_apps_Gallery2" remote="cm" revision="cm-11.0" />
-  <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="gjr" revision="kk44" />
-  <project path="packages/apps/LockClock" name="packages_apps_LockClock" remote="gjr" revision="kk44" />
-  <project path="packages/apps/Mms" name="packages_apps_Mms" remote="gjr" revision="kk44" />
-  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="gjr" revision="kk44" />
-  <project path="packages/services/Telephony" name="packages_services_Telephony" remote="gjr" revision="kk44" />
-  <project path="packages/wallpapers/SunBeam" name="packages_wallpapers_SunBeam" remote="gjr" revision="kk44" />
+  <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="pe" revision="kk44" />
+  <project path="packages/apps/LockClock" name="packages_apps_LockClock" remote="pe" revision="kk44" />
+  <project path="packages/apps/Mms" name="packages_apps_Mms" remote="pe" revision="kk44" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="pe" revision="kk44" />
+  <project path="packages/services/Telephony" name="packages_services_Telephony" remote="pe" revision="kk44" />
+  <project path="packages/wallpapers/SunBeam" name="packages_wallpapers_SunBeam" remote="pe" revision="kk44" />
 
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
   <project path="packages/apps/Browser" name="platform/packages/apps/Browser" />
@@ -425,7 +421,6 @@
 
 
   <!-- Prebuilts -->
-  <project path="prebuilts/gcc/linux-x86/toolchain/linaro" name="Linaro_47x_toolchain" remote="gjr" revision="kk44" />
 
   <project path="prebuilts/clang/darwin-x86/3.1" name="platform/prebuilts/clang/darwin-x86/3.1" groups="pdk,darwin" />
   <project path="prebuilts/clang/darwin-x86/3.2" name="platform/prebuilts/clang/darwin-x86/3.2" groups="pdk,darwin" />
@@ -477,9 +472,9 @@
 
   <!-- System and Tool Packages -->
   <project path="system/core" name="platform_system_core" remote="pe" revision="kk44" />
-  <project path="system/extras" name="platform_system_extras" remote="gjr" revision="kk44" />
-  <project path="system/qcom" name="platform_system_qcom" remote="gjr" revision="kk44" />
-  <project path="system/vold" name="platform_system_vold" remote="gjr" revision="kk44" />
+  <project path="system/extras" name="platform_system_extras" remote="pe" revision="kk44" />
+  <project path="system/qcom" name="platform_system_qcom" remote="pe" revision="kk44" />
+  <project path="system/vold" name="platform_system_vold" remote="pe" revision="kk44" />
 
   <project path="system/media" name="platform/system/media" groups="pdk" />
   <project path="system/netd" name="platform/system/netd" groups="pdk" />
@@ -498,7 +493,6 @@
 
   <!-- Vendor Packages -->
   <project path="vendor/common" name="vendor_common" remote="private" revision="kk44" />
-  <project path="vendor/samsung" name="vendor_samsung" remote="gjr" revision="kk44" />
   <project path="vendor/htc" name="vendor_htc" remote="gjr" revision="kk44" />
 
 </manifest>
