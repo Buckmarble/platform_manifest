@@ -273,7 +273,7 @@
   <project path="frameworks/av" name="android_frameworks_av" remote="cm" revision="cm-11.0" />
   <project path="frameworks/base" name="android_frameworks_base" remote="pe" revision="kk44" />
   <project path="frameworks/native" name="android_frameworks_native" remote="pe" revision="kk44" />
-  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="private" revision="kk44" />
+  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="pe" revision="kk44" />
   <project path="frameworks/opt/vcard" name="android_frameworks_opt_vcard" remote="cm" revision="cm-11.0" />
 
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
@@ -492,7 +492,7 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
 
   <!-- Vendor Packages -->
-  <project path="vendor/common" name="vendor_common" remote="private" revision="kk44" />
+  <project path="vendor/common" name="vendor_common" remote="pe" revision="kk44" />
   <project path="vendor/htc" name="vendor_htc" remote="pe" revision="kk44" />
 
 </manifest>
