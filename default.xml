@@ -8,12 +8,6 @@
   <remote  name="cm"
            fetch="https://github.com/CyanogenMod/" />
 
- <remote   name="private"
-           fetch="ssh://git@github.com/buckmarble/" />
-
-  <remote  name="gjr"
-           fetch="https://github.com/mrgatesjunior/" />
-
   <remote  name="pe"
            fetch="https://github.com/Buckmarble/" />
 
