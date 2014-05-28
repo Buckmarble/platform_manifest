@@ -24,7 +24,7 @@
   </project>
 
   <!-- Project Elite SG4 Start -->
-  <project path="art" name="android_art" remote="pe" revision="kk44" />
+  <project path="art" name="android_art" remote="cm" revision="cm-11.0" />
   <project path="dalvik" name="android_dalvik" remote="pe" revision="kk44"/>
 
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
