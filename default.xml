@@ -61,7 +61,7 @@
   <!-- External Packages -->
   <project path="external/bluetooth/bluedroid" name="android_external_bluetooth_bluedroid" remote="cm" revision="cm-11.0" />
   <project path="external/bash" name="android_external_bash" remote="cm" revision="cm-11.0" />
-  <project path="external/busybox" name="android_external_busybox" remote="cm" revision="cm-11.0" />
+  <project path="external/busybox" name="android_external_busybox" remote="pe" revision="kk443" />
   <project path="external/clang" name="external_clang" groups="pdk" remote="pe" revision="kk443"/>
   <project path="external/e2fsprogs" name="external_e2fsprogs" remote="pe" revision="kk443" />
   <project path="external/exfat" name="android_external_exfat" remote="cm" revision="cm-11.0" />
